@@ -1,0 +1,49 @@
+apply plugin: "groovy"
+apply plugin: "idea"
+apply plugin: "maven"
+
+def description = "LMAX Disruptor"
+group = "com.lmax.disruptor"
+version = "2.8.SNAPSHOT"
+
+project.sourceCompatibility = 7
+
+configurations {
+  all*.exclude group: "commons-logging"
+  all*.exclude module: "slf4j-log4j12"
+  all*.exclude module: "groovy-all", version: "1.8.0-beta-3-SNAPSHOT"
+}
+
+repositories {
+  mavenLocal()
+  mavenCentral(artifactUrls: [
+      "http://maven.springframework.org/milestone"
+  ])
+}
+
+dependencies {
+  groovy "org.codehaus.groovy:groovy:$groovyVersion"
+
+  // Logging
+  compile "org.slf4j:slf4j-api:$slf4jVersion"
+  runtime "org.slf4j:jcl-over-slf4j:$slf4jVersion"
+  runtime "ch.qos.logback:logback-classic:$logbackVersion"
+
+  // Testing
+  testCompile "org.spockframework:spock-core:$spockVersion"
+  testCompile "org.hamcrest:hamcrest-all:1.1"
+  testCompile "org.jmock:jmock-junit4:$jmockVersion"
+  testCompile "org.jmock:jmock-legacy:$jmockVersion"
+
+}
+
+task wrapper(type: Wrapper) { gradleVersion = "1.0-milestone-5" }
+
+task copyDependencies << {
+  copy {
+    from configurations.runtime
+    into "lib"
+  }
+}
+
+idea.module.jdkName = "OpenJDK 1.7"

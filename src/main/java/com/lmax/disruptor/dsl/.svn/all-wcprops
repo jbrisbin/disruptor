@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/494/trunk/code/src/main/com/lmax/disruptor/dsl
+END
+EventProcessorRepository.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/494/trunk/code/src/main/com/lmax/disruptor/dsl/EventProcessorRepository.java
+END
+ExceptionHandlerSetting.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/494/trunk/code/src/main/com/lmax/disruptor/dsl/ExceptionHandlerSetting.java
+END
+Disruptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/494/trunk/code/src/main/com/lmax/disruptor/dsl/Disruptor.java
+END
+EventHandlerGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/468/trunk/code/src/main/com/lmax/disruptor/dsl/EventHandlerGroup.java
+END
+EventProcessorInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/439/trunk/code/src/main/com/lmax/disruptor/dsl/EventProcessorInfo.java
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/468/trunk/code/src/test/com/lmax/disruptor/dsl/stubs
+END
+ExceptionThrowingEventHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/343/trunk/code/src/test/com/lmax/disruptor/dsl/stubs/ExceptionThrowingEventHandler.java
+END
+SleepingEventHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/371/trunk/code/src/test/com/lmax/disruptor/dsl/stubs/SleepingEventHandler.java
+END
+DelayedEventHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/369/trunk/code/src/test/com/lmax/disruptor/dsl/stubs/DelayedEventHandler.java
+END
+StubExceptionHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/468/trunk/code/src/test/com/lmax/disruptor/dsl/stubs/StubExceptionHandler.java
+END
+EvilEqualsEventHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/343/trunk/code/src/test/com/lmax/disruptor/dsl/stubs/EvilEqualsEventHandler.java
+END
+StubPublisher.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/371/trunk/code/src/test/com/lmax/disruptor/dsl/stubs/StubPublisher.java
+END
+StubExecutor.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/371/trunk/code/src/test/com/lmax/disruptor/dsl/stubs/StubExecutor.java
+END
+EventHandlerStub.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/343/trunk/code/src/test/com/lmax/disruptor/dsl/stubs/EventHandlerStub.java
+END
